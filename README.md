@@ -8,14 +8,17 @@ Debian package builds.
 
 ### How is it made
 
-It draws from the sibbling source repositories here as _e.g._ [the minimal
-AWS SDK for S3](https://github.com/eddelbuettel/pkg-aws-sdk-cpp-only-s3),
-as well as its build dependencies. I may add other packages. Or not.
+It draws from the sibbling source repositories here as _e.g._ [the minimal AWS SDK for
+S3](https://github.com/eddelbuettel/pkg-aws-sdk-cpp-only-s3), as well as its build
+dependencies. Other packages may be added in the future if the need arises.
 
-The binaries are made in the same [pbuilder](https://manpages.debian.org/unstable/pbuilder/pbuilder.8.en.html)
-setup used for all [my official Debian packages](https://qa.debian.org/developer.php?login=edd@debian.org).
+The binaries are made in the same
+[pbuilder](https://manpages.debian.org/unstable/pbuilder/pbuilder.8.en.html) setup used
+for all [my official Debian
+packages](https://qa.debian.org/developer.php?login=edd@debian.org) (to which a local
+build directory with these packages is added to support dependencies between them). 
 
-Note that for Ubuntu use I do have [two PPA repos on Launchpad](https://launchpad.net/~edd).
+Note that for Ubuntu use I also have [PPA repos on Launchpad](https://launchpad.net/~edd).
 
 ### License and copyrights
 
