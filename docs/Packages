@@ -144,18 +144,18 @@ Description: AWS SDK for C++ Subset Containing only S3 -- development package
 
 Package: r-cran-bspm
 Architecture: all
-Version: 0.3.4-1
+Version: 0.3.4.1-1
 Priority: optional
 Section: gnu-r
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
-Installed-Size: 81
+Installed-Size: 82
 Depends: r-base-core (>= 4.0.2-1), r-api-4.0, python3-apt, python3-dbus, python3-gi
-Filename: ./r-cran-bspm_0.3.4-1_all.deb
-Size: 26288
-MD5sum: cf3a2d06f108fd34cbfe55310920d877
-SHA1: f9774742f52661f1ffbb170f475840c265fd0497
-SHA256: 3e8288c75e2144c14d88d66f8f4ddcf4550ce053296c2bd121f547f50d08e5d2
-SHA512: 5312af712bb1717bc65f84e87fad4a6c92859da657105bcd77dddf592246582edf6320d5e7f16d4c78883ee7fd7dd50fc429610d8170393c2a05be2545639d7b
+Filename: ./r-cran-bspm_0.3.4.1-1_all.deb
+Size: 26876
+MD5sum: 4bb77d62ebdf9c4822405d8d84239c03
+SHA1: 8a305f7448ca8d536c1c527de8aba8cd14c439eb
+SHA256: b112ee023beabb1e1e27c76afbb53f23de9273b76effa6dd01ab3ff9d24f58f2
+SHA512: daecf5b96c44343be6943963bc25c0e957ef1b7e10a3af5d7f4e02499c3849c4856adae18124dab2d1b9463420ed3e90bdeebe7ca0bc25c96194b2b78017ee38
 Homepage: https://cran.r-project.org/package=bspm
 Description: GNU R package offering a bridge to the system package managers
  The package enables binary package installations on Linux distributions
