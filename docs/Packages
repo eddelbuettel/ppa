@@ -40,6 +40,27 @@ Description: AWS SDK for C -- development package
  Core c99 package for AWS SDK for C. Includes cross-platform primitives,
  configuration, data structures, and error handling.
 
+Package: libaws-c-common-dev
+Architecture: amd64
+Version: 0.4.59-1.debian.1
+Priority: optional
+Section: libdevel
+Source: aws-c-common
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 815
+Filename: ./libaws-c-common-dev_0.4.59-1.debian.1_amd64.deb
+Size: 136716
+MD5sum: 04b07f62657f3a8a2a48e1e2d7ae6e4c
+SHA1: 6fac1dd706b0e843bb7bc4590d413313e4bae705
+SHA256: ab8c0721cc0e397a26904a2931345a238d6044866ef274eace8e9d3139ea80e7
+SHA512: 29ac5c20e0c4e698f787102fe3426a2711b7a27b8d68f1573556ea2843be6268b7519593072bf850ea3198a90e84708cac65454521bb1a9edb41dbf980431c8e
+Homepage: https://github.com/awslabs/aws-c-common
+Description: AWS SDK for C -- development package
+ Inofficial package. Currently contains a static (not shared) library.
+ .
+ Core c99 package for AWS SDK for C. Includes cross-platform primitives,
+ configuration, data structures, and error handling.
+
 Package: libaws-c-event-stream-dev
 Architecture: amd64
 Version: 0.1.4-1debian
@@ -80,6 +101,26 @@ Description: AWS Event Stream C Implementation -- development package
  .
  C99 implementation of the vnd.amazon.event-stream content-type.
 
+Package: libaws-c-event-stream-dev
+Architecture: amd64
+Version: 0.1.6-1.debian.1
+Priority: optional
+Section: libdevel
+Source: aws-c-event-stream
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 74
+Filename: ./libaws-c-event-stream-dev_0.1.6-1.debian.1_amd64.deb
+Size: 15080
+MD5sum: f1dc841dea3f55959b1c03ce35f2c873
+SHA1: 6c259e96de319ca1bf00c8f9718b18e2fa749c86
+SHA256: 976eae3e52b73cadd6c07076e634fd2ff617a1fbb90d0e1bff56ead1366e46b0
+SHA512: bfe79b0bf09660f03cbe334995d86c3b447e1dc52970086859e367e85f9e6017b8fed68707124da618e1b6cb81338fa49945bb062b82b1eaf7d9018a5078a7fc
+Homepage: https://github.com/awslabs/aws-c-event-stream
+Description: AWS Event Stream C Implementation -- development package
+ Inofficial package. Currently contains a static (not shared) library.
+ .
+ C99 implementation of the vnd.amazon.event-stream content-type.
+
 Package: libaws-checksums-dev
 Architecture: amd64
 Version: 0.1.5-1debian
@@ -94,6 +135,28 @@ MD5sum: 42e82345fd2dc5046df3f08b7a166a5f
 SHA1: 0e1d2c1a332966f05cb43cc258292f13099beca9
 SHA256: 909980c5ea98bdfa13155f0c8fb045f8a90b2b58b053b012f420e65ea568cee9
 SHA512: d785768a37ce866044708c9407a41cde00172cc7d706362864bef2a56706f2eaa7b308699ce5fa38e4f8364406f97ffda359a55f69be0d79092c9f3568387ce8
+Homepage: https://github.com/awslabs/aws-checksums
+Description: AWS CRC32c and CRC32 C Interface -- development package
+ Inofficial package. Currently contains a static (not shared) library.
+ .
+ Cross-Platform HW accelerated CRC32c and CRC32 with fallback to
+ efficient SW implementations. C interface with language bindings for
+ each of our SDKs
+
+Package: libaws-checksums-dev
+Architecture: amd64
+Version: 0.1.9-1.debian.2
+Priority: optional
+Section: libdevel
+Source: aws-checksums
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 71
+Filename: ./libaws-checksums-dev_0.1.9-1.debian.2_amd64.deb
+Size: 40664
+MD5sum: c3c15a9e69cc921a3b127b12fcbfc319
+SHA1: 87656af26e7a1e6da9ce6378cf3ecbd0abf36290
+SHA256: 9b69e1b538f65ad1b1079489c9a258ad048f6185ace59ab8eb9232a766e1a1cf
+SHA512: 42bcc825d0e2b7da1dec9b92e7a6bab0a2c510930b01642f93b8f5ba7f969a488585089dc3b640636279fb958e4edb5212634be8384bb45a672f8b3d98a66222
 Homepage: https://github.com/awslabs/aws-checksums
 Description: AWS CRC32c and CRC32 C Interface -- development package
  Inofficial package. Currently contains a static (not shared) library.
@@ -136,6 +199,26 @@ MD5sum: f21143e027ae3be952aa6e196c27bed7
 SHA1: a77e1154f6a41a25fd53eb2ad46abca162dab9d1
 SHA256: 9d8a43f304d1c077b27387311a17901c61a834e20136837470b2800c89927763
 SHA512: c3346924041287c454a9c34e2422e72eff22bf39cd95f5f09a658127f8ceb67584502c56271e1d14ccc1f297172d83e03174485eb12dee69a0c9373e6e72ce0f
+Homepage: https://github.com/aws/aws-sdk-cpp
+Description: AWS SDK for C++ Subset Containing only S3 -- development package
+ Inofficial package. Currently contains a static (not shared) library.
+ .
+ AWS SDK for C++ --- but only the subset needed to compile with s3 support.
+
+Package: libaws-sdk-cpp-only-s3-dev
+Architecture: amd64
+Version: 1.8.77-1.debian.1
+Priority: optional
+Section: libdevel
+Source: aws-sdk-cpp-only-s3
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 17743
+Filename: ./libaws-sdk-cpp-only-s3-dev_1.8.77-1.debian.1_amd64.deb
+Size: 1318596
+MD5sum: 26ee47c8d0428bf250d684724690b8bc
+SHA1: bb342c7e4cd13ccb638631f40a5ef0edac6c01cc
+SHA256: 553aa24e442092bf92e46fc1d3aa46490fc553ccd015df3e5a007295f4d2fc25
+SHA512: 0314d50b0533dc411f388390fd18c8231878c75ed13544715ce9925d0023c88ce62eb758a7edd71e40e1b6802a37457b5eade541d376b77d02418ebafe14bf47
 Homepage: https://github.com/aws/aws-sdk-cpp
 Description: AWS SDK for C++ Subset Containing only S3 -- development package
  Inofficial package. Currently contains a static (not shared) library.
