@@ -245,6 +245,144 @@ Description: AWS SDK for C++ Subset Containing only S3 -- development package
  .
  AWS SDK for C++ --- but only the subset needed to compile with s3 support.
 
+Package: libquantlib0-dev-dbgsym
+Architecture: amd64
+Version: 1.22-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: quantlib
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 29095
+Depends: libquantlib0-dev (= 1.22-1)
+Filename: ./libquantlib0-dev-dbgsym_1.22-1_amd64.deb
+Size: 1764676
+MD5sum: 4491f1b10a7d4e21c170119f0bf76444
+SHA1: 94c3ac9ea2ffbe2cdd036fdf8f58a46f6e546d42
+SHA256: 07d489d2d710cf362ab5386e10170fccd0ec959b0531b1c22768403b2321422a
+SHA512: e2b25c3cbc8072163b0a9a1e91c54c7307055ca08bd9fb7a9acc9cdcc69f43d3c1d5db0bc4570ec9f3100645617ca5fd4022bf9a7fde86f8fbacf396a23dba44
+Description: debug symbols for libquantlib0-dev
+Build-Ids: cc58be41ef928010d771f5f7f6e80810adbb18d9 f3e84d0dd2b4d2b5a3d0fe68a64cfb86f3425bb1
+
+Package: libquantlib0-dev
+Architecture: amd64
+Version: 1.22-1
+Priority: optional
+Section: libdevel
+Source: quantlib
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 176590
+Depends: libboost-test1.74.0 (>= 1.74.0), libc6 (>= 2.29), libgcc-s1 (>= 4.0), libquantlib0v5 (= 1.22-1), libstdc++6 (>= 9), libc6-dev, libboost-test-dev
+Replaces: libquantlib-0.3.9, libquantlib0
+Filename: ./libquantlib0-dev_1.22-1_amd64.deb
+Size: 19935532
+MD5sum: 8d9f80bccf4b34488e361fd0c7dab575
+SHA1: 2315e54e36513eb74bab3c3f737f5619f231efb6
+SHA256: a1e0f271c6d96c156fb808881f8c05fb25783e281d62bd78c758c14114686abd
+SHA512: 75c5f9ecb1843a4b962a75df6729dfac7017102146005a7ac29f7f9befe6d98e824752f408948c2601820614aef57d8787c67de8f032aa48eba808eca835d3f7
+Homepage: https://www.quantlib.org
+Description: Quantitative Finance Library -- development package
+ The QuantLib project aims to provide a comprehensive software framework
+ for quantitative finance. The goal is to provide a standard free/open
+ source library to quantitative analysts and developers for modeling,
+ trading, and risk management of financial assets.
+ .
+ This package contains the header files, static libraries and symbolic
+ links that developers using QuantLib will need.
+
+Package: libquantlib0v5-dbgsym
+Architecture: amd64
+Version: 1.22-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: quantlib
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 6195
+Depends: libquantlib0v5 (= 1.22-1)
+Filename: ./libquantlib0v5-dbgsym_1.22-1_amd64.deb
+Size: 553348
+MD5sum: b0e841ed70ee7413d13145d25f8b7564
+SHA1: e1aa8e1378735a0ae9e57067431807c94cce4715
+SHA256: 8ec5fb224a81fc5ac27ccde1ad44c73f595fb8ab05c8bd3b0f1cb88f8289a531
+SHA512: 30badbbb1a6d2a097a44dcf1e285d88fc9b072f05bad4e37710861bcbdbf0a8e347a0480b44b81589205bb2c52d306c17211f653c4fe4fc4f423e0df6ed1474d
+Description: debug symbols for libquantlib0v5
+Build-Ids: 4fe8cb56ac43689e0e576fc6c4a39013f08360c8
+
+Package: libquantlib0v5
+Architecture: amd64
+Version: 1.22-1
+Priority: optional
+Section: libs
+Source: quantlib
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 33109
+Provides: libquantlib-1.0.0, libquantlib-1.1, libquantlib-1.2
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 4.0), libstdc++6 (>= 9)
+Conflicts: libquantlib0
+Breaks: libquantlib-1.0.0, libquantlib-1.1
+Replaces: libquantlib-1.0.0, libquantlib-1.1, libquantlib-1.2, libquantlib0
+Filename: ./libquantlib0v5_1.22-1_amd64.deb
+Size: 7898840
+MD5sum: d4ff267b9917aec9055d42baaca545d8
+SHA1: 2add2ab0e8b5744c86487eedb8930bfa68bb75eb
+SHA256: 0d47f7330938b8747c46a88759c55af290f8e7e45f30bae7f295c41e338cfb40
+SHA512: 63a9493f0ddf536fa6b1e332051d57b369ac3f4262606a94f0f112b362944baa223292dbb38f9a407d0497ae69196082bc1469384e50a5927394cf4af528b6f0
+Homepage: https://www.quantlib.org
+Description: Quantitative Finance Library -- library package
+ The QuantLib project aims to provide a comprehensive software framework
+ for quantitative finance. The goal is to provide a standard free/open
+ source library to quantitative analysts and developers for modeling,
+ trading, and risk management of financial assets.
+ .
+ This package provides the shared libraries required to run programs
+ compiled with QuantLib.
+
+Package: quantlib-examples-dbgsym
+Architecture: amd64
+Version: 1.22-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: quantlib
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 1630
+Depends: quantlib-examples (= 1.22-1)
+Filename: ./quantlib-examples-dbgsym_1.22-1_amd64.deb
+Size: 162720
+MD5sum: 01de0bd6070a644d61f33221f1ea3978
+SHA1: dda7c85dbd937c9a8e488f6491e427dc5bf9b804
+SHA256: cfa80ce600377bdd3393d0db8986b7994e2bb97e10fcd57ff753c90205913898
+SHA512: ba17168e71ba181c86a1ca8d9a7811f9ae2e5a97bb0615da98a98e303ee95a17a68819b7793469b984529e97263115f5763529641a5da8b6e4c90cd00e323dc6
+Description: debug symbols for quantlib-examples
+Build-Ids: 16b92158381df2fff24dd789c6dc9003c7a06841 184498f0c023fe80a54f8cdb49c309837ba60613 1d6507c5e195018472efc2483023216217bc6630 3a9cad21a51218f617702de6af2f1e35b1ed2d54 5d2c42a3a577999af767604878f5665e8c02ab28 7c036f63fe0a6ca3657c282807b13d2ee4a0bb39 7cc4c6dea12fb99568d879c00d7cfb647c59a335 95b32a258279d28a419ce5b1a68a9485b398660c 9fe0b817e2b332301e3348e38fe22f59b03085ce ad184218b9a19078f3cb64c9267d5556d1eda8da c506bb489bc8f1c7242a8f6f6eb8973b0b643f72 c550767b4dc73b5469a3d59b521e2b9754764e4e c816c83e86f51e0431cbde4f9a1e49603acb8eaa cd4cb56d6f61728c6beec7a573ce687121346ec2 d47875644da98f801c46c0e100794e7ee35446b2 d597b3b607bf24a183732cccc13c20b241680dbc dd66c03d4738f715850ef32c4798c5a61e24d3e5 e18b238cde0df5188cee60d1559636b6aa2ae27d f59e2221829716f3bafaaac7034037f876823010
+
+Package: quantlib-examples
+Architecture: amd64
+Version: 1.22-1
+Priority: optional
+Section: devel
+Source: quantlib
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 4881
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.4), libquantlib0v5 (= 1.22-1), libstdc++6 (>= 9)
+Breaks: libquantlib0v5 (<< 1.17-1)
+Replaces: libquantlib0v5 (<< 1.17-1)
+Filename: ./quantlib-examples_1.22-1_amd64.deb
+Size: 887380
+MD5sum: 1cc2c43bf393a38e939feb9f4118f419
+SHA1: 42a0d0e0adb8c5793be8a19050cadfdf4b602f2d
+SHA256: 0208c00539404bac2aefb893f5a0326ccbbf12b26f3bf4985657ceca2fea3f29
+SHA512: 75dae9bfd94b76456b53592666ecbd7d64f3be8b25cfbd1dd00991e05a9ad68fa20ed9c88e2adb9ed9e11d46ff0c5c48a3239337d9c14fd3ef2644f9855218bd
+Homepage: https://www.quantlib.org
+Description: Quantitative Finance Library -- example binaries
+ The QuantLib project aims to provide a comprehensive software framework
+ for quantitative finance. The goal is to provide a standard free/open
+ source library to quantitative analysts and developers for modeling,
+ trading, and risk management of financial assets.
+ .
+ This package provides several example binaries as well as source code.
+
 Package: r-cran-bspm
 Architecture: all
 Version: 0.3.4.1-1
