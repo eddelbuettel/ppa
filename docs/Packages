@@ -446,3 +446,129 @@ Description: GNU R package offering a bridge to the system package managers
  via the distribution's package manager. Also provides transparent
  integration with R's 'install.packages' and a fallback mechanism.
 
+Package: r-cran-cluster-dbgsym
+Architecture: amd64
+Version: 2.1.2-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: cluster
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 93
+Depends: r-cran-cluster (= 2.1.2-1)
+Filename: ./r-cran-cluster-dbgsym_2.1.2-1_amd64.deb
+Size: 79684
+MD5sum: c4a8e077b06fc7de30a667c1296af2ce
+SHA1: 23d37fb7c97240ddd36203f8259a6b0a73aa24f3
+SHA256: e75a32b7b6aeff0fb50aabfe00ffe2040cfba5f902e81b037f2ab9107104fa0f
+SHA512: 0f01914faee0dd6eda955fdeba776d8740fc5a114e254036f2c1d323e7a7b4c3f8d054321739c92708686a62a308e46647148cf39de4d6cd04eefd7bbc11845c
+Description: debug symbols for r-cran-cluster
+Build-Ids: 85208020ce0559b02e4231ce8ad224a16f72aea2
+
+Package: r-cran-cluster
+Architecture: amd64
+Version: 2.1.2-1
+Priority: optional
+Section: gnu-r
+Source: cluster
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 752
+Depends: r-base-core (>= 4.0.4-1), r-api-4.0, libc6 (>= 2.29)
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-cluster_2.1.2-1_amd64.deb
+Size: 557752
+MD5sum: bf7569214291c9ad4171f09b194e1a38
+SHA1: aa15307a48e41438fa9d7090e8530aecac14346b
+SHA256: d2dede10fb8d3abaa90a32a79da0cc55794eea2f20e00710085a3f2896f33f1a
+SHA512: e462061ec5f87a2f65be6f29f63082c676d66bafbf1ae7109e67e67f6816d6bea0212e820e7c895f900b667bf3964718903421daafbf863a0a936898d5d65c21
+Homepage: https://cran.r-project.org/package=cluster
+Description: GNU R package for cluster analysis by Rousseeuw et al
+ This package provides functions and datasets for cluster analysis originally
+ written by Peter Rousseeuw, Anja Struyf and Mia Hubert.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-haven-dbgsym
+Architecture: amd64
+Version: 2.4.1-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: r-cran-haven
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 1124
+Depends: r-cran-haven (= 2.4.1-1)
+Filename: ./r-cran-haven-dbgsym_2.4.1-1_amd64.deb
+Size: 1060612
+MD5sum: fe73cd235b60957b4afccc6a4cdb7ab1
+SHA1: 402b7024f52b0c4f7bc2ab4adc093c935298ae4b
+SHA256: b9f9ad0fc2933c99566857b45d4343687ddb1a68545f0eef00e0e548021357ec
+SHA512: 3101bffb32b0b68ec43c4f1f7e0036e865a4938089645c145c2b293536d95f510bdfd2a53a0aa9e93451214cbaad79b62e0ffba02a1fd982b39420b968a4a95a
+Description: debug symbols for r-cran-haven
+Build-Ids: e8232eb2a03f097d5b09258a4e5ba60c6917121b
+
+Package: r-cran-haven
+Architecture: amd64
+Version: 2.4.1-1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 839
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.2.0), r-base-core (>= 4.0.4-1), r-api-4.0, r-cran-forcats (>= 0.2.0), r-cran-hms, r-cran-readr (>= 0.1.0), r-cran-rlang (>= 0.4.0), r-cran-tibble, r-cran-tidyselect, r-cran-vctrs (>= 0.3.0), r-cran-cpp11, r-cran-rcpp
+Filename: ./r-cran-haven_2.4.1-1_amd64.deb
+Size: 321892
+MD5sum: 917b2cdf996eb1431161e56a50c98048
+SHA1: 7c371adf8da7d6bc25402f32808f76b857966431
+SHA256: f9a5727a64907db8ac1fbf4b7e2cfe8a2ed908f828e045b33719ab2d36a73cc5
+SHA512: f984e8537e14d9f146a3cff4763bb1677b5c6af5af5657b1ea6a5156b89ad7cafecb5d0a7b09a6bf4117e1e63da20b9e739c2c71b27ce91c14ae48d8c7f62c76
+Homepage: https://cran.r-project.org/package=haven
+Description: GNU R package to import/export SPSS, Stata and SAS files
+ The goal of 'haven' is import foreign statistical formats into R via
+ the embedded 'ReadStat' C library.
+
+Package: r-cran-mgcv-dbgsym
+Architecture: amd64
+Version: 1.8-35-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: mgcv
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 416
+Depends: r-cran-mgcv (= 1.8-35-1)
+Filename: ./r-cran-mgcv-dbgsym_1.8-35-1_amd64.deb
+Size: 400924
+MD5sum: 6778659d64e957d05a113a51e6f5718a
+SHA1: 7bd47180c380967a1dabc83b44c66dc69a2f8df3
+SHA256: b760c7f6d71e9a4822ed4476480289749ff5626ffe0ff48f593459dec6845e62
+SHA512: 53aef1f9c914577918ce8af540821e999429508b739c891d67b1947ed63c6bfd0e88a940ec3250d7899bfb9f003092f9395c2a682c85fc82e7710be800d5fb32
+Description: debug symbols for r-cran-mgcv
+Build-Ids: 74c643c94a2aef279970bc37f4e384d6014bed9a
+
+Package: r-cran-mgcv
+Architecture: amd64
+Version: 1.8-35-1
+Priority: optional
+Section: gnu-r
+Source: mgcv
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 3515
+Depends: r-base-core (>= 4.0.4-1), r-api-4.0, r-cran-nlme (>= 3.1-64), r-cran-matrix, libblas3 | libblas.so.3, libc6 (>= 2.29), libgomp1 (>= 6), liblapack3 | liblapack.so.3
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-mgcv_1.8-35-1_amd64.deb
+Size: 3024692
+MD5sum: ff91ddb5dce5b95071306f6c9376b229
+SHA1: ae4f771a07daf9f786cc9fc3e22da0ba0f719660
+SHA256: 65d6193fc3c408ac19f4e6d50d422b06c5019a11e0a5d58f7eddcb7e78adec5c
+SHA512: 505cd5fe5c883491af672909bde88726749d856f1fbe0dbd3227451bd1d32019c6010c58e8cd0c9b87df85f4073cb5b4d9d100b0037ec0652a1802216eefb608
+Homepage: https://cran.r-project.org/package=mgcv
+Description: GNU R package for multiple parameter smoothing estimation
+ This package provides functions for generalised additive models (GAMs)
+ and other generalized ridge regression problems with multiple smoothing
+ parameter selection by GCV or UBRE. It includes an implementation (not
+ a clone) of gam().
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
