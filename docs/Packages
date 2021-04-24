@@ -572,3 +572,83 @@ Description: GNU R package for multiple parameter smoothing estimation
  This package is part of the set of packages that are 'recommended'
  by R Core and shipped with upstream source releases of R itself.
 
+Package: r-cran-rcpparmadillo-dbgsym
+Architecture: amd64
+Version: 0.10.4.0.0-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: r-cran-rcpparmadillo
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 880
+Depends: r-cran-rcpparmadillo (= 0.10.4.0.0-1)
+Filename: ./r-cran-rcpparmadillo-dbgsym_0.10.4.0.0-1_amd64.deb
+Size: 863148
+MD5sum: 9d91fe611cc12f21e22f91c92196ae53
+SHA1: 770f565870c79ce4daea51fb2a4cd3da3791f8ce
+SHA256: 2940824e4e15b060398f3775e51c06826329738a8903d744f7b6b7ad2d10aedb
+SHA512: 51fe1e46a461aa3d57d2d71231f562fbc04ce83e2fa13c8213b435b7cff402d47969d1cc290a70d56c29678a769616d5e9e73ed09738177084c42747e55aadcc
+Description: debug symbols for r-cran-rcpparmadillo
+Build-Ids: c11de6df40db6e48a292e54c59547d1d5aaae821
+
+Package: r-cran-rcpparmadillo
+Architecture: amd64
+Version: 0.10.4.0.0-1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 6559
+Depends: libblas3 | libblas.so.3, libc6 (>= 2.29), libgcc-s1 (>= 3.0), liblapack3 | liblapack.so.3, libstdc++6 (>= 9), r-base-core (>= 4.0.4-1), r-api-4.0, r-cran-rcpp (>= 0.11.0), r-cran-pkgkitten
+Filename: ./r-cran-rcpparmadillo_0.10.4.0.0-1_amd64.deb
+Size: 1150980
+MD5sum: c5458da83ad9bf4d8b7cf525d3e05cde
+SHA1: 22c19b36f3d7b744229a5e9b280a3a5d16a4daa7
+SHA256: be8f38bdbdc37019e8d36cabc51fe52c8c6ac424a2401b300c7d964f9c46ceb1
+SHA512: c6b3dfddf0c446a63cfc13273224394df022fbff2a47f07efdcc16dbebaaa26997831fef82d8254837b358727c7387fcad18621ff9bde17a6f2e0fa0a289e73f
+Homepage: https://cran.r-project.org/package=RcppArmadillo
+Description: GNU R package for Armadillo C++ linear algebra library
+ Armadillo is a templated C++ linear algebra library (by Conrad Sanderson)
+ that aims towards a good balance between speed and ease of use. Integer,
+ floating point and complex numbers are supported, as well as a subset of
+ trigonometric and statistics functions. Various matrix decompositions are
+ provided through optional integration with LAPACK and ATLAS libraries.
+ .
+ A delayed evaluation approach is employed (during compile time) to combine
+ several operations into one, and to reduce (or eliminate) the need for
+ temporaries. This is accomplished through recursive templates and template
+ meta-programming.
+ .
+ This library is useful if C++ has been decided as the language of choice
+ (due to speed and/or integration capabilities), rather than another language.
+ .
+ The RcppArmadillo package includes the header files from the
+ templated Armadillo library. Thus users do not need to install
+ Armadillo itself in order to use RcppArmadillo.
+ .
+ This Armadillo integration provides a nice illustration of the
+ capabilities of the Rcpp package for seamless R and C++ integration.
+ .
+ Armadillo is licensed under the MPL 2.0, while RcppArmadillo (the Rcpp
+ bindings/bridge to Armadillo) is licensed under the GNU GPL version 2
+ or later, as is the rest of Rcpp.
+
+Package: r-cran-sn
+Architecture: all
+Version: 2.0.0-1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 1916
+Depends: r-base-core (>= 4.0.4-1), r-api-4.0, r-cran-mnormt (>= 2.0.0), r-cran-numderiv, r-cran-quantreg
+Filename: ./r-cran-sn_2.0.0-1_all.deb
+Size: 1773416
+MD5sum: 32bfa77ce67be507d69f029402c996c1
+SHA1: 214edb9ff904ed2bd080455a196b6863a8973d6d
+SHA256: 98c09f0b38c9df4e12d95418ba67c33a4ef15851efbf0246508356ea1530fe36
+SHA512: ba4754234433d289af64e26e099cac5b98f4e931559d4570d696c6e4cc4a99eb3a7ea2c9c8641df4984f1b21b7d61176d37a4454a93cd13b84580a2210381e38
+Homepage: https://cran.r-project.org/package=sn
+Description: GNU R package providing skew-normal and skew-t distributions
+ This package provides functions for manipulating skew-normal and
+ skew-t probability distributions, and for fitting them to data, in
+ the scalar and in the multivariate case.
+
