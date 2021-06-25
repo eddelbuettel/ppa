@@ -385,48 +385,6 @@ Description: Quantitative Finance Library -- example binaries
 
 Package: r-cran-bspm
 Architecture: all
-Version: 0.3.4.1-1
-Priority: optional
-Section: gnu-r
-Maintainer: Dirk Eddelbuettel <edd@debian.org>
-Installed-Size: 82
-Depends: r-base-core (>= 4.0.2-1), r-api-4.0, python3-apt, python3-dbus, python3-gi
-Filename: ./r-cran-bspm_0.3.4.1-1_all.deb
-Size: 26876
-MD5sum: 4bb77d62ebdf9c4822405d8d84239c03
-SHA1: 8a305f7448ca8d536c1c527de8aba8cd14c439eb
-SHA256: b112ee023beabb1e1e27c76afbb53f23de9273b76effa6dd01ab3ff9d24f58f2
-SHA512: daecf5b96c44343be6943963bc25c0e957ef1b7e10a3af5d7f4e02499c3849c4856adae18124dab2d1b9463420ed3e90bdeebe7ca0bc25c96194b2b78017ee38
-Homepage: https://cran.r-project.org/package=bspm
-Description: GNU R package offering a bridge to the system package managers
- The package enables binary package installations on Linux distributions
- without administrative privileges. Provides functions to manage packages
- via the distribution's package manager. Also provides transparent
- integration with R's 'install.packages' and a fallback mechanism.
-
-Package: r-cran-bspm
-Architecture: all
-Version: 0.3.5-1
-Priority: optional
-Section: gnu-r
-Maintainer: Dirk Eddelbuettel <edd@debian.org>
-Installed-Size: 82
-Depends: r-base-core (>= 4.0.2-1), r-api-4.0, python3-apt, python3-dbus, python3-gi
-Filename: ./r-cran-bspm_0.3.5-1_all.deb
-Size: 26924
-MD5sum: d90e8b72b30a9491eba4b0948ee448f0
-SHA1: 167304675f15ff704ba37c50914c477181a73447
-SHA256: 18b305178822dcc9bc31d42956b06a79a2cdfdcd6701a323b4a4ba1b46ecb4d0
-SHA512: 90011a9cf92ed4c39c2f841be3932ad08bbfeb2621b95e26d576bed5d09493349073592d8e399485c09d7a496bafa2edd9225b1f7df291c9b21dbc588d480ae9
-Homepage: https://cran.r-project.org/package=bspm
-Description: GNU R package offering a bridge to the system package managers
- The package enables binary package installations on Linux distributions
- without administrative privileges. Provides functions to manage packages
- via the distribution's package manager. Also provides transparent
- integration with R's 'install.packages' and a fallback mechanism.
-
-Package: r-cran-bspm
-Architecture: all
 Version: 0.3.7-1
 Priority: optional
 Section: gnu-r
@@ -439,6 +397,27 @@ MD5sum: f3345339a2036ff2677dd679508b9a39
 SHA1: fe275c8ec8c3fdfdf23a77b6729c4cb4966a8664
 SHA256: 2000ea53f9ada897fd168cb8841a25aaabaf351e86cb9ae6b5accdfe01244029
 SHA512: 5a4cb90bafda209413c73d4c77e1d13adc7ddbabe36ec75a1e5241392309f4843541dbb7a3c65d0184a2716a1a78db14e10ab688c536bec0a73b81551185d4ba
+Homepage: https://cran.r-project.org/package=bspm
+Description: GNU R package offering a bridge to the system package managers
+ The package enables binary package installations on Linux distributions
+ without administrative privileges. Provides functions to manage packages
+ via the distribution's package manager. Also provides transparent
+ integration with R's 'install.packages' and a fallback mechanism.
+
+Package: r-cran-bspm
+Architecture: all
+Version: 0.3.8.1-1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 90
+Depends: r-base-core (>= 4.0.4-1), r-api-4.0, python3-apt, python3-dbus, python3-gi
+Filename: ./r-cran-bspm_0.3.8.1-1_all.deb
+Size: 30916
+MD5sum: a4d08704ceefef6145e91c63a4874bc4
+SHA1: 48cbf66013f026c670db65a49f2c07a9dc43091c
+SHA256: 8008c07c1f598c97185e7b38ba05c0c2102ca3620614f01b12820c35a689acc6
+SHA512: 8ae4f83ed28f699ff59f598f3599da48d8c69e19ea98f8eeae2dd4264de26b5be506b536bb37687a18bbd4f42d8dba74feff25c34c346f311f86763fcbcd13da
 Homepage: https://cran.r-project.org/package=bspm
 Description: GNU R package offering a bridge to the system package managers
  The package enables binary package installations on Linux distributions
