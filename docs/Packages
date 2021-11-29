@@ -1,3 +1,58 @@
+Package: cmake-data
+Architecture: all
+Version: 3.21.4-1
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Source: cmake
+Maintainer: Debian CMake Team <pkg-cmake-team@lists.alioth.debian.org>
+Installed-Size: 9743
+Depends: dh-elpa-helper, emacsen-common
+Filename: ./cmake-data_3.21.4-1_all.deb
+Size: 1878412
+MD5sum: 9103405daecf097150a4fb6a5626b5a5
+SHA1: 0761afed0bfbe8452b9f7ab21b82c6dfa9401722
+SHA256: 2574491e74234b08a258113d86faf32c6b5c3b0ba20772b42524c6587b9b5507
+SHA512: 0cda0e9a94c70b899bfaef42c3838a4a0b269c60a0150e59a36e94f1b4694dd91de9679dc2285aac602c441ee1c5fd779b7b5766b4624bc0c9b333249d137064
+Homepage: https://cmake.org/
+Description: CMake data files (modules, templates and documentation)
+ This package provides CMake architecture independent data files (modules,
+ templates, documentation etc.). Unless you have cmake installed, you probably
+ do not need this package.
+
+Package: cmake
+Architecture: amd64
+Version: 3.21.4-1
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Maintainer: Debian CMake Team <pkg-cmake-team@lists.alioth.debian.org>
+Installed-Size: 26395
+Depends: libarchive13 (>= 3.3.3), libc6 (>= 2.17), libcurl4 (>= 7.16.2), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.0), libjsoncpp24 (>= 1.9.4), librhash0 (>= 1.2.6), libstdc++6 (>= 11), libuv1 (>= 1.38.0), zlib1g (>= 1:1.1.4), cmake-data (= 3.21.4-1), procps
+Recommends: gcc, make
+Suggests: cmake-doc, ninja-build
+Filename: ./cmake_3.21.4-1_amd64.deb
+Size: 7908088
+MD5sum: 4172793d9f71cf138e07c2356c9546df
+SHA1: da7263d3c38b39d815a4c0b631db9ffd8496f83a
+SHA256: 131ba62159aefd64b0253acf4f8050d7c75e856597c2978e3efdb2b713db04c9
+SHA512: dc37812cef9c3a92aabd378e9be5178fa1131d3c5dbc1410fb5f1b569dc14fe938331e7659e592c5af4ca4cef51e9161f733ea0f963005819c6676cf85f2b575
+Homepage: https://cmake.org/
+Description: cross-platform, open-source make system
+ CMake is used to control the software compilation process using
+ simple platform and compiler independent configuration files. CMake
+ generates native makefiles and workspaces that can be used in the
+ compiler environment of your choice. CMake is quite sophisticated: it
+ is possible to support complex environments requiring system
+ configuration, pre-processor generation, code generation, and template
+ instantiation.
+ .
+ CMake was developed by Kitware as part of the NLM Insight
+ Segmentation and Registration Toolkit project. The ASCI VIEWS project
+ also provided support in the context of their parallel computation
+ environment. Other sponsors include the Insight, VTK, and VXL open
+ source software communities.
+
 Package: libaws-c-common-dev
 Architecture: amd64
 Version: 0.4.30-1debian
