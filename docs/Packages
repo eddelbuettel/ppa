@@ -262,6 +262,26 @@ Description: AWS SDK for C++ Subset Containing only S3 -- development package
 
 Package: libaws-sdk-cpp-only-s3-dev
 Architecture: amd64
+Version: 1.8.117-3.debian.1
+Priority: optional
+Section: libdevel
+Source: aws-sdk-cpp-only-s3
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 17979
+Filename: ./libaws-sdk-cpp-only-s3-dev_1.8.117-3.debian.1_amd64.deb
+Size: 1339256
+MD5sum: 7fd14f8f06566bcdcc00337322800e01
+SHA1: 98fc53d0af6a05a8d75f1f029dc30d0c8dde45b1
+SHA256: 364ed977f10a5be82053d8526a0e19fa415f7e4252a4bac81e0a144e7f4ce962
+SHA512: 2d7bac37c5d306463700b94d642dd0632f35d88c1478409461dd2df34e90c2a6d31b0615e36e334e35e82e476b8d13f4cdd45247b3268e4adf4563d0c0d4e197
+Homepage: https://github.com/aws/aws-sdk-cpp
+Description: AWS SDK for C++ Subset Containing only S3 -- development package
+ Inofficial package. Currently contains a static (not shared) library.
+ .
+ AWS SDK for C++ --- but only the subset needed to compile with s3 support.
+
+Package: libaws-sdk-cpp-only-s3-dev
+Architecture: amd64
 Version: 1.8.6-1.debian.1
 Priority: optional
 Section: libdevel
@@ -299,6 +319,67 @@ Description: AWS SDK for C++ Subset Containing only S3 -- development package
  Inofficial package. Currently contains a static (not shared) library.
  .
  AWS SDK for C++ --- but only the subset needed to compile with s3 support.
+
+Package: libcapnp-0.8.0
+Architecture: amd64
+Version: 0.8.0-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: capnproto
+Maintainer: Tom Lee <debian@tomlee.co>
+Installed-Size: 5502
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.4), libssl1.1 (>= 1.1.0), libstdc++6 (>= 5), zlib1g (>= 1:1.1.4)
+Filename: ./libcapnp-0.8.0_0.8.0-1_amd64.deb
+Size: 1179948
+MD5sum: a6ff9dc01add1a0dc0e87aca761550e9
+SHA1: 1f45a2cee6ce09a5a95c50035c58ce1bcc86f470
+SHA256: e6f09a80c9c8359ad0dd0d95c425717ff8a69b29b3ad62d4e6a3490645000a3c
+SHA512: 71cc420107bbc3fa4e1b38ec5a2fe490d5a12b6ccfe9d957bd7100a3389da08ff22cd7db447493520b353ee9da148a85f1a3454cc2d253acf152db0808815032
+Homepage: https://capnproto.org/
+Description: Cap'n Proto C++ library
+ Similar to Protocol Buffers, Cap'n Proto is an efficient means of
+ serializing structured data to be transferred across a network or
+ written to disk. Users write a Cap'n Proto definition file that
+ drives a code generator, which in turn emits C++ code for encoding &
+ decoding messages in the Cap'n Proto format.
+ .
+ In addition to being extremely fast, Cap'n Proto also smooths over some
+ of the rougher aspects of Protocol Buffers & introduces a number of new
+ features to boot.
+ .
+ This package contains the runtime libraries needed for C++ applications.
+
+Package: libcapnp-dev
+Architecture: amd64
+Version: 0.8.0-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: capnproto
+Maintainer: Tom Lee <debian@tomlee.co>
+Installed-Size: 13135
+Depends: libcapnp-0.8.0 (= 0.8.0-1)
+Filename: ./libcapnp-dev_0.8.0-1_amd64.deb
+Size: 1653496
+MD5sum: 2319bdda1ff700938118f1e71b33a342
+SHA1: b95392db8e8397a9271cf65854b785c8ffd48295
+SHA256: 21a8d2e575d146a177487b49051c655b34ef0058aa092395f5553b966c7726a5
+SHA512: 662d97fee0f44fc768628f38d48719496a4a7faf09fccbd2bf2d20a579a8fcb0d2ca6778bca46bc078407e69ddb60bd00d8e789664e225e0722eb9a3327aedbf
+Homepage: https://capnproto.org/
+Description: Cap'n Proto C++ library (development files)
+ Similar to Protocol Buffers, Cap'n Proto is an efficient means of
+ serializing structured data to be transferred across a network or
+ written to disk. Users write a Cap'n Proto definition file that
+ drives a code generator, which in turn emits C++ code for encoding &
+ decoding messages in the Cap'n Proto format.
+ .
+ In addition to being extremely fast, Cap'n Proto also smooths over some
+ of the rougher aspects of Protocol Buffers & introduces a number of new
+ features to boot.
+ .
+ This package contains the headers and static libraries needed for writing
+ C++ applications.
 
 Package: libquantlib0-dev-dbgsym
 Architecture: amd64
